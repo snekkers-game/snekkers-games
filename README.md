@@ -11,7 +11,7 @@ Open `index.html` in a browser, or serve this folder:
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
-
+ 
 Then visit <http://localhost:8000>.
 
 ## Publish with GitHub Pages
