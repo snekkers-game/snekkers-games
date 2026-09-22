@@ -1,0 +1,175 @@
+[
+  {
+    "slug": "nudge",
+    "name": "Nudge",
+    "pitch": "An action RPG with tower defense: recover crystals, collect loot, craft equipment, and build your skills to help restore a girl’s suppressed memories.",
+    "steam": "https://store.steampowered.com/app/4538110/Nudge/",
+    "artwork": [
+      {
+        "file": "assets/press/nudge/vertical-asset.jpg",
+        "title": "Nudge key artwork",
+        "alt": "Nudge vertical key artwork"
+      },
+      {
+        "file": "assets/press/nudge/thumbnail.png",
+        "title": "Nudge thumbnail",
+        "alt": "Nudge thumbnail artwork"
+      },
+      {
+        "file": "assets/press/nudge/header-capsule.png",
+        "title": "Nudge header capsule",
+        "alt": "Nudge header capsule artwork"
+      },
+      {
+        "file": "assets/press/nudge/main-capsule.png",
+        "title": "Nudge main capsule",
+        "alt": "Nudge main capsule artwork"
+      },
+      {
+        "file": "assets/press/nudge/library-hero Large.jpeg",
+        "title": "Nudge library hero",
+        "alt": "Nudge library hero artwork"
+      }
+    ],
+    "features": [
+      "Combine direct action RPG combat with strategic tower placement against waves of enemies.",
+      "Collect loot and unique items, and craft equipment using Exile-inspired systems.",
+      "Unlock skills and experiment with builds in a Skill Grid that grows as you level up.",
+      "Play solo with full controller support, including Xbox and PlayStation controllers.",
+      "English and Simplified Chinese interfaces and subtitles."
+    ],
+    "trailers": [
+      {
+        "title": "Nudge — Gameplay Trailer",
+        "url": "https://www.youtube.com/watch?v=NYAJVt6zG5k",
+        "youtube_id": "NYAJVt6zG5k",
+        "start": 0
+      }
+    ],
+    "screenshots": [
+      {
+        "file": "assets/press/nudge/screenshot_1.jpg",
+        "title": "Nudge screenshot 1",
+        "alt": "Nudge gameplay screenshot 1"
+      },
+      {
+        "file": "assets/press/nudge/screenshot_2.jpg",
+        "title": "Nudge screenshot 2",
+        "alt": "Nudge gameplay screenshot 2"
+      },
+      {
+        "file": "assets/press/nudge/screenshot_3.jpg",
+        "title": "Nudge screenshot 3",
+        "alt": "Nudge gameplay screenshot 3"
+      },
+      {
+        "file": "assets/press/nudge/screenshot_4.jpg",
+        "title": "Nudge screenshot 4",
+        "alt": "Nudge gameplay screenshot 4"
+      },
+      {
+        "file": "assets/press/nudge/screenshot_5.jpg",
+        "title": "Nudge screenshot 5",
+        "alt": "Nudge gameplay screenshot 5"
+      },
+      {
+        "file": "assets/press/nudge/screenshot_6.jpg",
+        "title": "Nudge screenshot 6",
+        "alt": "Nudge gameplay screenshot 6"
+      }
+    ],
+    "logos": [
+      {
+        "file": "assets/press/nudge/logo.png",
+        "title": "Nudge logo",
+        "alt": "Nudge game logo"
+      }
+    ],
+    "credits": [
+      {
+        "name": "Alex Example",
+        "role": "Game design & development (placeholder)"
+      },
+      {
+        "name": "Sam Example",
+        "role": "Art & animation (placeholder)"
+      },
+      {
+        "name": "Jordan Example",
+        "role": "Music & sound (placeholder)"
+      }
+    ],
+    "mock": true,
+    "location": "Not announced",
+    "platforms": "Windows, macOS, SteamOS + Linux",
+    "status": "Not yet released",
+    "release_date": "To be announced",
+    "genres": "Action, Adventure, Indie, RPG",
+    "price": "To be announced",
+    "description": "Take control of Nudge and fight enemy waves while positioning towers to support your defense. Discover loot and unique items, or craft your own equipment with Exile-inspired mechanics. As you level up, expand a distinctive Skill Grid and combine newly discovered skills into different builds. Recover crystals along the way to help restore a girl’s suppressed memories.",
+    "languages": "English, Simplified Chinese",
+    "players": "Single-player",
+    "controller_support": "Full controller support",
+    "mock_notice": "Game details are sourced from Steam. Screenshots, logos, templates, and individual credits remain placeholders for layout review.",
+    "cover": {
+      "file": "assets/nudge.png",
+      "title": "Nudge key artwork",
+      "alt": "Nudge artwork: a tiny sword-wielding robot, colorful obstacles, and a glowing pink crystal."
+    }
+  },
+  {
+    "slug": "break-the-planet",
+    "name": "Break the Planet",
+    "pitch": "Something out of this world is on its way.",
+    "status": "In development (placeholder)",
+    "artwork": [
+      {
+        "file": "assets/break-the-planet.png",
+        "title": "Break the Planet key artwork",
+        "alt": "Break the Planet artwork: an astronaut faces a vast crumbling planet illuminated by violet meteors."
+      }
+    ],
+    "features": [
+      "Explore a mysterious world shaped by cosmic forces.",
+      "Adapt to changing terrain and unexpected planetary hazards.",
+      "Discover new routes through striking alien environments.",
+      "Experience a cinematic atmosphere of violet skies and distant stars."
+    ],
+    "trailers": [],
+    "screenshots": [
+      {
+        "file": "assets/break-the-planet.png",
+        "title": "Screenshot placeholder · supplied key artwork",
+        "alt": "Break the Planet artwork: an astronaut faces a vast crumbling planet illuminated by violet meteors."
+      }
+    ],
+    "logos": [
+      {
+        "file": "assets/press/break-the-planet/logo.svg",
+        "title": "Break the Planet · mock logo",
+        "alt": "Placeholder logo for Break the Planet; not approved branding."
+      }
+    ],
+    "credits": [
+      {
+        "name": "Alex Example",
+        "role": "Game design & development (placeholder)"
+      },
+      {
+        "name": "Sam Example",
+        "role": "Art & animation (placeholder)"
+      },
+      {
+        "name": "Jordan Example",
+        "role": "Music & sound (placeholder)"
+      }
+    ],
+    "mock": true,
+    "location": "The Netherlands (placeholder)",
+    "platforms": "Windows PC (placeholder)",
+    "release_date": "2027 (placeholder)",
+    "genres": "Space action / exploration (placeholder)",
+    "price": "To be announced",
+    "description": "Step into the boots of a lone astronaut on the edge of a fractured world. Explore strange landscapes, navigate shifting hazards, and discover what lies beneath the surface of a planet that refuses to stand still."
+  }
+]

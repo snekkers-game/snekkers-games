@@ -1,8 +1,8 @@
 # Snekkers Games
 
-A minimal, responsive one-page website for **Snekkers Games**, prepared for **https://snekkersgames.com**.
+A dark, responsive website for **Snekkers Games**, prepared for **https://snekkersgames.com**.
 
-Plain HTML and CSS. No framework, package installation, build step, external fonts, JavaScript, or tracking.
+Static HTML and CSS, with a small JavaScript enhancement for press-kit image previews and section navigation. No framework, package installation, external fonts, or tracking.
 
 ## Preview locally
 
@@ -57,7 +57,16 @@ GitHub redirects `www.snekkersgames.com` to `snekkersgames.com` when both are co
 
 - **Content and links:** `index.html`.
 - **Colors and layout:** `styles.css`. The core colors are at the top in `:root`.
+- **Game artwork:** `assets/nudge.png` and `assets/break-the-planet.png`.
 - **Browser icon:** `assets/favicon.svg`.
 - **Custom domain:** `CNAME`, the canonical/Open Graph URLs in `index.html`, and GitHub Pages settings.
 
-Nudge links to its Steam page. Break the Planet has a non-clickable “Coming soon” label; replace that label with a game link when its store page is ready. The header and footer link to `info@snekkersgames.com`, and the footer includes the studio’s YouTube and X accounts. The footer year is plain text in `index.html`.
+Both game cards link to their press kits. Nudge also links to its Steam page. The header and footer link to `info@snekkersgames.com`, and the footer includes the studio’s YouTube and X accounts. The footer year is plain text in `index.html`.
+
+## Press kits
+
+- `/press-kit/nudge/` and `/press-kit/break-the-planet/` are complete static pages.
+- Edit `press-kit/games.json` for facts, pitch, description, features, credits, trailer links, and asset collections. Nudge game details are sourced from its Steam page; its supplied screenshots, artwork, and logo are included; credits are stored but hidden. Break the Planet still uses mock details. Set `mock` to `false` only after replacing mock details and assets with approved content.
+- Add media entries with `file` (repository-relative), `title`, and `alt` to `artwork`, `screenshots`, or `logos`. Trailer entries use `title` and `url`; add `youtube_id` and an optional `start` time in seconds for a responsive YouTube embed.
+- Run `python3 scripts/build_press_kits.py` after changes. This regenerates both HTML pages and per-category/full asset ZIP downloads using only the Python standard library. Commit the generated files; hosting does not need Python.
+- Shared layout and interactions: `press-kit/press-kit.css` and `press-kit/press-kit.js`. Images open in a keyboard-accessible dialog; original image links and all downloads also work without JavaScript.
