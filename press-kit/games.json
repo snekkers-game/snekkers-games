@@ -120,6 +120,7 @@
   {
     "slug": "break-the-planet",
     "name": "Break the Planet",
+    "steam": "https://store.steampowered.com/app/5252690/Break_the_Planet",
     "pitch": "A satisfying, meditative incremental game about shooting balls and breaking planets.",
     "status": "In development",
     "artwork": [
@@ -152,7 +153,14 @@
       {"title": "Grow stronger with every run", "description": "Each run makes you stronger. Reset, unlock permanent upgrades, and work your way toward destroying the massive 10-billion-voxel planet."},
       {"title": "Uncover a hidden mystery", "description": "There is more to the planets than destruction. Find hidden objects, strange structures, and clues that can lead you to the true ending."}
     ],
-    "trailers": [],
+    "trailers": [
+      {
+        "title": "Break the Planet — Trailer",
+        "url": "https://www.youtube.com/watch?v=JMhZYXJIytg",
+        "youtube_id": "JMhZYXJIytg",
+        "start": 0
+      }
+    ],
     "screenshots": [
       {"file": "assets/press/break-the-planet/break the planet_1.1.1.png", "title": "Gameplay screenshot 1", "alt": "Break the Planet gameplay screenshot 1"},
       {"file": "assets/press/break-the-planet/break the planet_1.5.1.png", "title": "Gameplay screenshot 2", "alt": "Break the Planet gameplay screenshot 2"},
