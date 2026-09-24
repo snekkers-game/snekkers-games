@@ -66,7 +66,7 @@ Both game cards link to their press kits. Nudge also links to its Steam page. Th
 ## Press kits
 
 - `/press-kit/nudge/` and `/press-kit/break-the-planet/` are complete static pages.
-- Edit `press-kit/games.json` for facts, pitch, description, features, credits, trailer links, and asset collections. Nudge game details are sourced from its Steam page; its supplied screenshots, artwork, and logo are included; credits are stored but hidden. Break the Planet still uses mock details. Set `mock` to `false` only after replacing mock details and assets with approved content.
+- Edit `press-kit/games.json` for facts, pitch, description, features, trailer links, and asset collections. Nudge game details are sourced from its Steam page. Break the Planet uses the supplied game description, features, Q1 2027 release window, screenshots, artwork, and logo. Its trailer URL and platform details have not been supplied yet.
 - Add media entries with `file` (repository-relative), `title`, and `alt` to `artwork`, `screenshots`, or `logos`. Trailer entries use `title` and `url`; add `youtube_id` and an optional `start` time in seconds for a responsive YouTube embed.
 - Run `python3 scripts/build_press_kits.py` after changes. This regenerates both HTML pages and per-category/full asset ZIP downloads using only the Python standard library. Commit the generated files; hosting does not need Python.
 - Shared layout and interactions: `press-kit/press-kit.css` and `press-kit/press-kit.js`. Images open in a keyboard-accessible dialog; original image links and all downloads also work without JavaScript.

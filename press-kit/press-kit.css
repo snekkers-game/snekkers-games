@@ -5,4 +5,5 @@
 @media(max-width:600px){.mock-notice{flex-direction:column;gap:5px}}
 
 .trailer-embed{aspect-ratio:16/9;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--surface)}.trailer-embed iframe{display:block;width:100%;height:100%;border:0}.press-deck{max-width:58ch}
+.feature-list li strong,.feature-list li span{display:block}.feature-list li strong{color:var(--text);font-weight:550}.feature-list li span{margin-top:4px}
 .asset-grid-artwork .asset-preview img{aspect-ratio:auto;max-height:560px;object-fit:contain}.asset-grid-logos .asset-preview img{padding:24px;object-fit:contain}

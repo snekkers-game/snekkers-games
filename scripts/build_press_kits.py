@@ -43,7 +43,10 @@ def build(game):
     facts.extend((label, game[key]) for key, label in [('languages', 'Languages'), ('players', 'Players'), ('controller_support', 'Controller support')] if game.get(key))
     facts_html = ''.join(f'<div><dt>{esc(k)}</dt><dd>{v if k == "Developer & publisher" else esc(v)}</dd></div>' for k,v in facts)
     store = link('View on Steam', game['steam'], 'button primary-button') if game.get('steam') else ''
-    features = '<ul class="feature-list">'+''.join(f'<li>{esc(f)}</li>' for f in game['features'])+'</ul>' if game.get('features') else '<p class="unannounced">Gameplay features will be shared when announced.</p>'
+    features = '<ul class="feature-list">'+''.join(
+        f'<li><strong>{esc(f["title"])}</strong><span>{esc(f["description"])}</span></li>' if isinstance(f, dict) else f'<li>{esc(f)}</li>'
+        for f in game['features']
+    )+'</ul>' if game.get('features') else '<p class="unannounced">Gameplay features will be shared when announced.</p>'
     trailers = ''
     for trailer in game.get('trailers', []):
         if trailer.get('youtube_id'):

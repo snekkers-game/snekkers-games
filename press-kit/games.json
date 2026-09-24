@@ -120,56 +120,63 @@
   {
     "slug": "break-the-planet",
     "name": "Break the Planet",
-    "pitch": "Something out of this world is on its way.",
-    "status": "In development (placeholder)",
+    "pitch": "A satisfying, meditative incremental game about shooting balls and breaking planets.",
+    "status": "In development",
     "artwork": [
       {
         "file": "assets/break-the-planet.png",
         "title": "Break the Planet key artwork",
         "alt": "Break the Planet artwork: an astronaut faces a vast crumbling planet illuminated by violet meteors."
+      },
+      {
+        "file": "assets/press/break-the-planet/main-capsule.png",
+        "title": "Main capsule artwork",
+        "alt": "Break the Planet main capsule artwork"
+      },
+      {
+        "file": "assets/press/break-the-planet/library-capsule.png",
+        "title": "Library capsule artwork",
+        "alt": "Break the Planet vertical library artwork"
+      },
+      {
+        "file": "assets/press/break-the-planet/small-capsule.png",
+        "title": "Small capsule artwork",
+        "alt": "Break the Planet small capsule artwork"
       }
     ],
     "features": [
-      "Explore a mysterious world shaped by cosmic forces.",
-      "Adapt to changing terrain and unexpected planetary hazards.",
-      "Discover new routes through striking alien environments.",
-      "Experience a cinematic atmosphere of violet skies and distant stars."
+      {"title": "Fire balls at procedurally generated planets", "description": "Every planet is different. Shoot balls, break voxels, and slowly tear each world apart."},
+      {"title": "Find the white voxel hidden in each planet", "description": "Every planet hides one white voxel. Break your way through the planet and find it to move on."},
+      {"title": "Play with 7 different ball types", "description": "Unlock 7 unique ball types, each with its own way of destroying planets. Combine them and find the fastest way to break everything."},
+      {"title": "Build your own skill tree", "description": "Spend what you collect on a large, non-linear skill tree. Upgrade your balls, unlock new abilities, and shape each run differently."},
+      {"title": "Grow stronger with every run", "description": "Each run makes you stronger. Reset, unlock permanent upgrades, and work your way toward destroying the massive 10-billion-voxel planet."},
+      {"title": "Uncover a hidden mystery", "description": "There is more to the planets than destruction. Find hidden objects, strange structures, and clues that can lead you to the true ending."}
     ],
     "trailers": [],
     "screenshots": [
-      {
-        "file": "assets/break-the-planet.png",
-        "title": "Screenshot placeholder · supplied key artwork",
-        "alt": "Break the Planet artwork: an astronaut faces a vast crumbling planet illuminated by violet meteors."
-      }
+      {"file": "assets/press/break-the-planet/break the planet_1.1.1.png", "title": "Gameplay screenshot 1", "alt": "Break the Planet gameplay screenshot 1"},
+      {"file": "assets/press/break-the-planet/break the planet_1.5.1.png", "title": "Gameplay screenshot 2", "alt": "Break the Planet gameplay screenshot 2"},
+      {"file": "assets/press/break-the-planet/break the planet_1.6.1.png", "title": "Gameplay screenshot 3", "alt": "Break the Planet gameplay screenshot 3"},
+      {"file": "assets/press/break-the-planet/break the planet_1.9.1.png", "title": "Gameplay screenshot 4", "alt": "Break the Planet gameplay screenshot 4"},
+      {"file": "assets/press/break-the-planet/break the planet_1.11.1.png", "title": "Gameplay screenshot 5", "alt": "Break the Planet gameplay screenshot 5"},
+      {"file": "assets/press/break-the-planet/poison.png", "title": "Poison ball screenshot", "alt": "Poison ball effect in Break the Planet"},
+      {"file": "assets/press/break-the-planet/skilltree.png", "title": "Skill tree screenshot", "alt": "Break the Planet skill tree"},
+      {"file": "assets/press/break-the-planet/trailer.png", "title": "Trailer still", "alt": "Break the Planet trailer still"},
+      {"file": "assets/press/break-the-planet/Break the Planet - Trailer 1_00_00_23_15.jpg", "title": "Trailer still 1", "alt": "Break the Planet trailer still 1"},
+      {"file": "assets/press/break-the-planet/Break the Planet - Trailer 1_00_00_34_20.png", "title": "Trailer still 2", "alt": "Break the Planet trailer still 2"},
+      {"file": "assets/press/break-the-planet/Break the Planet - Trailer 1_00_01_09_11.png", "title": "Trailer still 3", "alt": "Break the Planet trailer still 3"}
     ],
     "logos": [
       {
-        "file": "assets/press/break-the-planet/logo.svg",
-        "title": "Break the Planet · mock logo",
-        "alt": "Placeholder logo for Break the Planet; not approved branding."
+        "file": "assets/press/break-the-planet/library-logo.png",
+        "title": "Break the Planet logo",
+        "alt": "Break the Planet game logo"
       }
     ],
-    "credits": [
-      {
-        "name": "Alex Example",
-        "role": "Game design & development (placeholder)"
-      },
-      {
-        "name": "Sam Example",
-        "role": "Art & animation (placeholder)"
-      },
-      {
-        "name": "Jordan Example",
-        "role": "Music & sound (placeholder)"
-      }
-    ],
-    "mock": true,
-    "location": "The Netherlands (placeholder)",
-    "platforms": "Windows PC (placeholder)",
-    "release_date": "2027 (placeholder)",
-    "genres": "Space action / exploration (placeholder)",
+    "mock": false,
+    "release_date": "Q1 2027",
+    "genres": "Incremental",
     "price": "To be announced",
-    "description": "Step into the boots of a lone astronaut on the edge of a fractured world. Explore strange landscapes, navigate shifting hazards, and discover what lies beneath the surface of a planet that refuses to stand still."
+    "description": "A satisfying, meditative incremental game about shooting balls to destroy planets. Find the white voxel hidden in each world, unlock more balls, and uncover the secrets to destroy a 10-billion-voxel planet."
   }
 ]
