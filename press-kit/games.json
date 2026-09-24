@@ -120,6 +120,7 @@
   {
     "slug": "break-the-planet",
     "name": "Break the Planet",
+    "verification": "incrementaldb_verification: snekkersgames",
     "steam": "https://store.steampowered.com/app/5252690/Break_the_Planet",
     "pitch": "A satisfying, meditative incremental game about shooting balls and breaking planets.",
     "status": "In development",

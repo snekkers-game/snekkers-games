@@ -42,6 +42,8 @@ def build(game):
     facts = [('Developer & publisher', link('Snekkers Games', '../../index.html')), ('Platforms', game.get('platforms', 'Not announced')), ('Release status', game.get('status', 'Not announced')), ('Release date', game.get('release_date', 'Not announced')), ('Genres', game.get('genres', 'Not announced')), ('Price', game.get('price', 'Not announced'))]
     facts.extend((label, game[key]) for key, label in [('languages', 'Languages'), ('players', 'Players'), ('controller_support', 'Controller support')] if game.get(key))
     facts_html = ''.join(f'<div><dt>{esc(k)}</dt><dd>{v if k == "Developer & publisher" else esc(v)}</dd></div>' for k,v in facts)
+    if game.get('verification'):
+        facts_html += f'<div><dt>Verification</dt><dd><code>{esc(game["verification"])}</code></dd></div>'
     store = link('View on Steam', game['steam'], 'button primary-button') if game.get('steam') else ''
     features = '<ul class="feature-list">'+''.join(
         f'<li><strong>{esc(f["title"])}</strong><span>{esc(f["description"])}</span></li>' if isinstance(f, dict) else f'<li>{esc(f)}</li>'
